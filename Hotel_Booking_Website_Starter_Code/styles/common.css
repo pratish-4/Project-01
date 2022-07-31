@@ -1,0 +1,106 @@
+*{
+    font-family: Ubuntu, sans-serif;
+}
+html, body{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#main-body{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}
+header img{
+    height: 60px;
+    width: 60px;
+}
+.hotel-img{
+    height: 200px;
+    width: 250px;
+}
+
+footer img{
+    height: 20px;
+    width: 22px;
+}
+body{
+    background-color: #e0e0e0;
+}
+header, footer{
+    background-color: rosybrown;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+#content{
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: fixed;
+    margin-top: 30px;   
+}
+.height{
+    clear: both;
+    height: 70px;
+}
+#login{
+    margin:2%;
+}
+#logo{
+    height: 60px;
+    margin: 1%;
+}
+
+.links{
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2%;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+#copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#copyright p{
+    font-size: 10px;
+    margin: 0;
+}
+#contact-us{
+    grid-column: 1;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 6%;
+}
