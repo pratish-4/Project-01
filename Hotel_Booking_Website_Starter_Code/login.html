@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div>
-        <form action="/Hotel_Booking_Website_Starter_Code/index.html">
-        
-            <label for="Name">Username :</label>
-            <input type="text" id="Name" placeholder="Enter Username" required/>
-            <br>
-            <label for="Password">Password :</label>
-            <input type="password" id="Password" placeholder="Enter Password" required/>
-            <br>
-            <button type="submit">Login</button>
-        
-            
-        
-        </form>
+      <form action="./index.html">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          name="username"
+          id="login-username"
+          placeholder="Enter Username"
+          autocomplete="off"
+          required
+        />
+        <br />
+        <label for="username">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="login-password"
+          placeholder="Enter Password"
+          autocomplete="off"
+          required
+        />
+        <br />
+        <button>login</button>
+      </form>
     </div>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
